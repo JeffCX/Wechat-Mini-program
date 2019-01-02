@@ -1,10 +1,64 @@
-/**app.wxss**/
-.container {
-  height: 100%;
+page{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+  
+}
+
+.page-title{
+  display: flex;
+  justify-content: center;
+  flex:1;
+  padding:10rpx;
+  border-bottom: 2rpx solid gray;
+}
+
+.page-body{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  display:flex;
+  padding:40rpx 20px;
+  border-bottom: 2rpx solid black;
+}
+
+
+.item .poster{
+  width:128rpx;
+  height:128rpx;
+  margin-right:20rpx;
+}
+
+.item .meta {
+  flex:1;
+}
+
+
+.item .title,item .sub-title{
+  display: block;
+  margin-bottom: 14rpx;
+}
+
+
+.item .title{
+  font-size: 32rpx;
+}
+
+
+.item .sub-title{
+   font-size: 22rpx;
+   color:#c0c0c0;
+}
+
+.item .artists{
+     font-size: 26rpx;
+     color:#999;
+}
+
+.item .rating{
+  font-size:28rpx;
+  font-weight: bold;
+  color:red;
+}

@@ -1,4 +1,4 @@
-var data = {
+{
   "count": 20,
   "start": 0,
   "total": 250,
@@ -1375,7 +1375,4 @@ var data = {
     }
   ],
   "title": "豆瓣电影Top250"
-}
-module.exports = {
-  data:data
 }
